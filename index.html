@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Meus produtos</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="/">Nome da loja</a></li>
+                <li><a href="#">Livros</a></li>
+                <li><a href="#">Eletrônicos</a></li>
+                <li><a href="#">Presentes</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section class="produtos">
+            <ul class="produtos__lista" id="produtos__lista">
+                <!-- Os produtos serão adicionados aqui pelo JavaScript -->
+            </ul>
+        </section>
+        <section class="produto-detalhe" id="produto-detalhe" style="display: none;">
+            <button id="voltar">Voltar</button>
+            <div id="produto-detalhe-content"></div>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; Todos os direitos reservados.</p>
+    </footer>
+    <script src="app.js"></script>
+</body>
+</html>
